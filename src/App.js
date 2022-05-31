@@ -44,7 +44,7 @@ function App() {
       <>
         <button onClick={handleOpen}>Open alert</button>
         {isOpenAlert && (
-          <Alert color="warning" onClose={handleClose}>
+          <Alert color="error" onClose={handleClose}>
             Join Tripma today and save up to 20% on your flight using code
             TRAVEL at checkout. Promotion valid for new users only.
           </Alert>

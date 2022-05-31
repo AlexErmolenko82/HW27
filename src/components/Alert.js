@@ -20,7 +20,8 @@ const StyledAlert = styled.div`
   text-align: center;
 `;
 
-const StyledCloseButton = styled.svg`
+const StyledCloseButton = styled.button`
+  border: none;
   position: relative;
   left: 1170px;
   top: 2px;
